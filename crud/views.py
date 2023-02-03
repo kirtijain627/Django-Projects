@@ -52,4 +52,3 @@ def learn_django(request):
     student = {'names': ['Kirti', 'Aditya', 'Saurav', 'Kanwar']}
     return render(request, 'crud/courseone.html', student)
 
-#
