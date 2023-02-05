@@ -19,16 +19,7 @@ from todo import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('stuinfo/<int:pk>', views.student_detail),
-    # path('stuinfo/', views.student_list),
-    # path('stucreate/', views.student_create),
-    # path('studentapi/', views.student_api),
-    # path('studentapi/', views.StudentAPI.as_view())
-    # path('todos/', include(todo_urls)),
-    # path('studentapi/', views.hello_world),
-    # path('studentapi/', views.student_api),
-    # path('studentapi/<int:pk>', views.student_brow_api),
-    # path('studentapi/', views.student_brow_api),
+
     path('', include('crud.urls'))
 
 ]
